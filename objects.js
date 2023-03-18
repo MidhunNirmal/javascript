@@ -23,3 +23,19 @@ let details = (name,phonen,age) =>{
 }
 console.log(details('Midhun','9526575165',24));
 
+// meathods
+
+let finance= (salery,bribe) =>{
+
+    money={
+    salery:salery,
+    black:bribe,
+    income: function(){
+       return this.salery+this.black;
+    }
+    }
+    let moneyprint = `the salery of him is ${money.salery} and his black money is ${money.black} so the total income will be ${money.income()} `
+    return moneyprint;
+}
+console.log(finance(10000,4000000));
+

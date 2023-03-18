@@ -1,0 +1,36 @@
+#red {
+    height:20rem;
+    width: 20rem;
+    background-color: rgb(223, 31, 31);
+    /* padding: 2%; */
+
+}
+#blue {
+    height:20rem;
+    width: 20rem;
+    background-color: blue;
+    /* padding: 2%; */
+    
+}
+#green {
+    height:20rem;
+    width: 20rem;
+    /* padding: 2%; */
+    background-color: rgb(16, 213, 16);
+}
+.maindiv {
+    display: flex;
+}
+.endi{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   /* padding-right: 5cm; */
+   /* display: inline-block; */
+   
+    
+}
+.butt{
+    
+}
